@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    min-height: 50px;
+    background-color: #ADD8E6;
+}
+
+.yellow {
+    background-color: #DAA520;
+}
+
+.h-col {
+    border: 1px dashed black;
+    width: 20%;
+    padding: 10px 10px;
+}
+
+.nav {
+    min-height: 40px;
+}
+
+.h-col:nth-of-type(2) {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.h-col:last-of-type {
+    text-align: right;
+}

@@ -88,5 +88,39 @@ header {
 .anbox {
     width: 100%;
     min-height: 500px;
-    background-color: green;
+    background-color: #228B22;
+}
+
+footer {
+    background-color: #23272A;
+    min-height: 600px;
+}
+
+.footbox {
+    min-height: 500px;
+    padding-bottom: 20px;
+}
+
+.f-col {
+    flex-grow: 1;
+    background-color: #20B2AA;
+}
+
+.f-col:first-of-type {
+    flex-grow: 2;
+    background-color: #F08080;
+}
+
+.last {
+    min-height: 50px;
+    background-color: #7FFFD4;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.butt {
+    padding: 5px;
+    background-color: #FFB6C1;
 }

@@ -24,16 +24,31 @@ header {
     background-color: #ADD8E6;
 }
 
+:root {
+    --yellow: #DAA520;
+    --blue: #00008B;
+    --grey: #D3D3D3;
+    --purple: #EE82EE;
+    --skyblue: #1E90FF;
+    --pink: #FFC0CB;
+    --green: #228B22;
+    --black: #23272A;
+    --lightgreen: #20B2AA;
+    --peach: #F08080;
+    --aqua: #7FFFD4;
+    --pink2: #FFB6C1;
+}
+
 .yellow {
-    background-color: #DAA520;
+    background-color: var(--yellow);
 }
 
 .blue {
-    background-color: #00008B;
+    background-color: var(--blue);
 }
 
 .grey {
-    background-color: #D3D3D3;
+    background-color: var(--grey);
 }
 
 .h-col {
@@ -60,7 +75,7 @@ header {
 }
 
 .box {
-    background-color: #EE82EE;
+    background-color: var(--purple);
     max-width: 80%;
     min-height: 300px;
     margin: 0 auto;
@@ -73,12 +88,12 @@ header {
 
 .slide:first-of-type {
     flex-grow: 1;
-    background-color: #1E90FF;
+    background-color: var(--skyblue);
 }
 
 .slide:last-of-type {
     min-width: 40%;
-    background-color: #FFC0CB;
+    background-color: var(--pink);
 }
 
 .reverse {
@@ -88,11 +103,11 @@ header {
 .anbox {
     width: 100%;
     min-height: 500px;
-    background-color: #228B22;
+    background-color: var(--green);
 }
 
 footer {
-    background-color: #23272A;
+    background-color: var(--black);
     min-height: 600px;
 }
 
@@ -103,17 +118,17 @@ footer {
 
 .f-col {
     flex-grow: 1;
-    background-color: #20B2AA;
+    background-color: var(--lightgreen);
 }
 
 .f-col:first-of-type {
     flex-grow: 2;
-    background-color: #F08080;
+    background-color: var(--peach);
 }
 
 .last {
     min-height: 50px;
-    background-color: #7FFFD4;
+    background-color: var(--aqua);
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -122,5 +137,5 @@ footer {
 
 .butt {
     padding: 5px;
-    background-color: #FFB6C1;
+    background-color: var(--pink2);
 }

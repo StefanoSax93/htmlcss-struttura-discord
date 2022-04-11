@@ -24,8 +24,12 @@ header {
     background-color: #DAA520;
 }
 
+.blue {
+    background-color: #00008B;
+}
+
 .h-col {
-    border: 1px dashed black;
+    border: 2px dashed black;
     width: 20%;
     padding: 10px 10px;
 }
@@ -41,4 +45,16 @@ header {
 
 .h-col:last-of-type {
     text-align: right;
+}
+/* qui inizia il main */
+.section {
+    padding: 2rem 0rem;
+}
+
+.box {
+    background-color: #EE82EE;
+    max-width: 80%;
+    min-height: 300px;
+    border: 2px dashed black;
+    margin: 0 auto;
 }

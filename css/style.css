@@ -57,13 +57,22 @@ header {
     padding: 10px 10px;
 }
 
-.nav {
-    min-height: 40px;
-}
-
 .h-col:nth-of-type(2) {
     flex-grow: 1;
-    text-align: center;
+}
+
+.list {
+    justify-content: center;
+    list-style: none;
+}
+
+.list li {
+    padding: 0px 20px;
+}
+
+.list a {
+    text-decoration: none;
+    color: black;
 }
 
 .h-col:last-of-type {
@@ -108,12 +117,10 @@ header {
 
 footer {
     background-color: var(--black);
-    min-height: 600px;
 }
 
 .footbox {
     min-height: 500px;
-    padding-bottom: 20px;
 }
 
 .f-col {
@@ -126,10 +133,13 @@ footer {
     background-color: var(--peach);
 }
 
+hr {
+    margin: 20px 0px;
+}
+
 .last {
     min-height: 50px;
     background-color: var(--aqua);
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
